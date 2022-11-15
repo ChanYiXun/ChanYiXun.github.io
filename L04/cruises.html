@@ -1,0 +1,192 @@
+<html>
+    <head>
+        <title>
+
+        </title>
+    </head>
+    <body>
+        <style>
+            .logo{
+                width: 75px;
+                position: absolute;
+                top: 30px;
+                left: 30px; 
+                transition: width 3s, height 3s, transform 3s;
+            }
+            .logo:hover{
+                width: 150px;
+                height: 150px;
+                transform: rotate(360deg);
+            }
+
+            .nav{
+                margin:30px;
+                padding:20px;
+                overflow:hidden;
+            }
+
+        
+            li{
+                float:right
+            }
+
+            li a { 
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                font-weight: bold;
+                text-align: center;
+                padding:15px 17px;
+            }
+
+            li a:hover{
+                background-color: rgba(128, 128, 128, 0.212);
+            }
+
+            .home{
+                background-color: #FDFD96;
+            }
+
+            .bgvid {
+                margin: auto;
+                display: block;
+                width: 100%;
+                height: auto;
+                position: relative;
+                z-index: -1;
+            }
+        
+            .content {
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                position: absolute;
+                top: 25%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                color: #00005e;
+                text-shadow: 0 0 0.5px #000000;
+                opacity: 90%;
+                
+            }
+            .navbar {
+                overflow: hidden;
+                float: right;
+            }
+
+            .navbar a {
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                float: left;
+                font-size: 16px;
+                color: rgb(0, 0, 0);
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                color: #00005e;
+            }
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+            .dropdown .dropbtn {
+                font-size: 16px;  
+                border: none;
+                outline: none;
+                color: #00005e;
+                padding: 14px 16px;
+                background-color: inherit;
+                font-family: inherit;
+                margin: 0;
+            }
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #C3B1E1;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+            body {
+      padding: 1%;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+   }
+   * {
+      box-sizing: border-box;
+   }
+   
+        </style>
+
+        <header>
+        <div class = "logo">
+        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+        viewBox="0 0 167 83.5" style="enable-background:new 0 0 167 83.5;" xml:space="preserve">
+   <style type="text/css">
+       .st0{stroke:#000000;stroke-miterlimit:10;}
+       .st1{fill:#FFFFFF;stroke:#000000;stroke-miterlimit:10;}
+       .st2{fill:none;}
+       .st3{fill:#FFFFFF;}
+       .st4{font-family:'Rockwell-ExtraBold';}
+       .st5{font-size:72px;}
+    </style>
+    <g>
+        <rect class="st0" width="83.5" height="83.5"/>
+        <rect x="83.5" y="0" class="st1" width="83.5" height="83.5"/>
+        <rect x="1.75" y="17.09" class="st2" width="80" height="49.32"/>
+        <text transform="matrix(1 0 0 1 1.75 65.9775)" class="st3 st4 st5">W</text>
+         <rect x="90.63" y="17.09" class="st2" width="80" height="49.32"/>
+         <text transform="matrix(1 0 0 1 90.627 65.9775)" class="st4 st5">X</text>
+    </g>
+    </svg>
+        </div>
+    
+        <div class="navbar">
+            <a class ="home" href="index.html">Home</a>
+            <a class ="redisc" href="Rediscover_Sg.html">Rediscover Singapore</a>
+            <div class="dropdown">
+              <button class="dropbtn">Package Deals</button>
+              <div class="dropdown-content">
+                <a href="#">Asia</a>
+                <a href="#">Europe</a>
+                <a href="#">Oceana</a>
+              </div>
+            </div>
+            <a class ="cruises" href="cruises.html">Cruises</a>
+            <a class ="abt_us" href="about_us.html">About Us</a>
+            <a class ="contacts" href="contact.html">Contact</a>
+          </div>
+        
+    </header>
+
+
+        <footer>
+            <nav>
+            <a href="">Policy & Privacy</a></p>
+            <a href="">Terms & Conditions</a></p>
+            <a href="">Feedback</a></p>
+            <a href="">Support</a></p>
+            <p>@ 2019-2022 World Xplore. All Rights Reserved.</p>
+            </nav>
+          </footer>
+    </body>
+</html>
